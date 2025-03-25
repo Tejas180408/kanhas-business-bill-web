@@ -7,4 +7,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
+  base: "/kanhas-business-bill-web/", // <-- Add this line
 })
